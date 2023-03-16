@@ -1,0 +1,175 @@
+
+
+.nav-bar{
+    background-color:black;
+    height: 60px;
+    
+    
+}
+/* i{
+    color:white !important;
+} */
+.socials{
+    padding:2px;
+    margin-left:2px
+}
+.nav-item:hover{
+    background-color:blue;
+}
+.image-container{
+    display:flex;
+    justify-content:space-between;
+}
+img{
+    width: 150px;
+    margin-right:20px;
+    border-radius: 10px;
+    
+}
+h2{
+    font-weight: bold;
+    font-size:2%;
+}
+body{
+    background-image:url(../images/background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+    
+}
+.mt-2{
+margin:2%;
+}
+
+.skills-wrapper{
+    background-color: gray;
+}
+.skills-wrapper ul{
+    list-style-type: none;
+    columns: 3
+    
+}
+.projects{
+    display:flex;
+    justify-content:space-between;
+
+}
+.company-one{
+    background-color:pink;
+    height: 300px;
+    width: 300px;
+    font-size: 12px;
+    overflow: scroll;
+    
+}
+.company-two{
+    background-color:skyblue;
+    height: 300px;  
+    width: 300px;
+    overflow: scroll;
+ 
+}.company-three{
+    background-color:grey;
+    height: 300px;
+    width: 300px;
+    overflow: scroll;
+}
+
+.projects p,h4{
+    text-align: center;
+    padding:10px;
+}
+.form-container{
+    margin-top: 2%;
+    display: flex;
+    justify-content:center;
+    height: 300px;
+
+
+
+}
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    /* padding: 1em; */
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    color:white;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    /* font: 1em sans-serif; */
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input,
+  textarea {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 50px;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+footer{
+    text-align:center;
+    color:#000;
+    height: 200px;
+    background-color:antiquewhite;
+  
+}
+h3{
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      
+    }
+    
+  }
+  
